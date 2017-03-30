@@ -37,3 +37,8 @@ require('./styles.css');
 
 platformBrowserDynamic().bootstrapModule(AppModule);
 
+export function init(word:any){
+  return function (template: any) {
+    console.log("Attempted to initialize.");
+  }
+}

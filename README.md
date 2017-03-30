@@ -13,6 +13,7 @@ The `AngularApp` directory contains a basic Angular app. It's packaged by Webpac
 To start the app:
 
 - `cd AngularApp`
+- `npm install`
 - `npm run start`
 
 ## Starting the Tailor Server
@@ -22,6 +23,7 @@ The `Tailor` directory contains a barebones Tailor server.
 To start the server:
 
 - `cd Tailor`
+- `npm install`
 - `node tailor.js`
 
 ## What should I see?
