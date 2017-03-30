@@ -2,6 +2,8 @@
 
 An example repository showing how to embed an Angular SPA into a webpage with Zalando's Tailor.
 
+See https://github.com/zalando/tailor.
+
 # Running the example
 
 ## Starting the Angular App
@@ -25,7 +27,7 @@ To start the server:
 ## What should I see?
 
 The Angular app deploys to `localhost:8080`; once loaded, it should display the name of the app 
-and a celebaratory message, "We've loaded everything!"
+and a celebratory message, "We've loaded everything!"
 
 The Tailor app shows a template at `localhost:8081/home`. It should load up the Angular app and flank it by 
 some `<p>` tags.
