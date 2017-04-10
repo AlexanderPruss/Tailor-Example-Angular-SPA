@@ -2,6 +2,13 @@
 
 An example repository showing how to embed an Angular SPA into a webpage with Zalando's Tailor.
 
+See https://github.com/zalando/tailor.
+
+# This doesn't work yet
+
+At the moment, Tailor will properly replace the `<fragment>` tags with the HTML content served by the 
+fragment server, but it doesn't actually call the scripts that come with the fragment tag.
+
 # Running the example
 
 ## Starting the Angular App
@@ -11,6 +18,7 @@ The `AngularApp` directory contains a basic Angular app. It's packaged by Webpac
 To start the app:
 
 - `cd AngularApp`
+- `npm install`
 - `npm run start`
 
 ## Starting the Tailor Server
@@ -20,12 +28,13 @@ The `Tailor` directory contains a barebones Tailor server.
 To start the server:
 
 - `cd Tailor`
+- `npm install`
 - `node tailor.js`
 
 ## What should I see?
 
 The Angular app deploys to `localhost:8080`; once loaded, it should display the name of the app 
-and a celebaratory message, "We've loaded everything!"
+and a celebratory message, "We've loaded everything!"
 
 The Tailor app shows a template at `localhost:8081/home`. It should load up the Angular app and flank it by 
 some `<p>` tags.
