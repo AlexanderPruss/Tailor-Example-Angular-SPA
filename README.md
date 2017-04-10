@@ -4,6 +4,11 @@ An example repository showing how to embed an Angular SPA into a webpage with Za
 
 See https://github.com/zalando/tailor.
 
+# This doesn't work yet
+
+At the moment, Tailor will properly replace the `<fragment>` tags with the HTML content served by the 
+fragment server, but it doesn't actually call the scripts that come with the fragment tag.
+
 # Running the example
 
 ## Starting the Angular App
